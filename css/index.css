@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 62.5%;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  background: #f9f9f9; }
+
+header > div {
+  width: 100%; }
+
+header > img {
+  width: 20%;
+  position: absolute;
+  top: 30%;
+  left: 0; }
+
+header > div:nth-child(2) > img {
+  width: 30%;
+  display: block;
+  margin: 2rem auto; }
+
+header > div:nth-child(2) {
+  width: 100%; }
+
+section {
+  flex-grow: 1;
+  height: 6rem;
+  overflow: auto; }
+  section .swiper-slide {
+    width: 100%; }
+  section .swiper-slide > img {
+    width: 100%; }
+  section .swiper-pagination {
+    width: 100%;
+    position: static;
+    text-align: center; }
+    section .swiper-pagination .swiper-pagination-bullet {
+      background: black;
+      opacity: 0.5;
+      margin-left: 1rem; }
+    section .swiper-pagination .swiper-pagination-bullet-active {
+      background: red; }
+  section #centent {
+    width: 100%;
+    margin-top: 1rem; }
+    section #centent ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-around; }
+      section #centent ul li {
+        width: 25%;
+        text-align: center; }
+        section #centent ul li a {
+          text-decoration: none;
+          color: #9d9d9d; }
+          section #centent ul li a img {
+            width: 60%;
+            display: block;
+            margin: 0 auto; }
+          section #centent ul li a p {
+            margin-top: 1rem;
+            margin-bottom: 1rem; }
+  section #hot {
+    width: 96%;
+    margin: 2rem auto;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #dcdcdc; }
+    section #hot div {
+      width: 100%;
+      border-left: 5px solid #d61f3c;
+      display: flex;
+      justify-content: space-around; }
+      section #hot div p:nth-child(1) {
+        width: 60%;
+        font-size: 2rem;
+        margin-left: 1rem;
+        line-height: 2rem; }
+      section #hot div p:nth-child(2) {
+        width: 30%;
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: right; }
+  section .inner {
+    width: 96%;
+    margin: 2rem auto; }
+    section .inner ul {
+      width: 100%;
+      background: #f4f4f4; }
+      section .inner ul li {
+        width: 100%;
+        display: flex; }
+        section .inner ul li div:nth-child(1) {
+          width: 13%;
+          text-align: center;
+          font-size: 3rem;
+          font-weight: 400;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: space-around; }
+        section .inner ul li div:nth-child(2) {
+          width: 35%; }
+          section .inner ul li div:nth-child(2) img {
+            width: 100%; }
+        section .inner ul li div:nth-child(3) {
+          width: 28%;
+          margin-left: 1rem;
+          font-size: 1.5rem;
+          color: #a5a5a5; }
+        section .inner ul li div:nth-child(4) {
+          width: 20%;
+          text-align: center;
+          font-size: 2rem;
+          color: red;
+          position: relative;
+          display: flex;
+          align-items: center; }
+          section .inner ul li div:nth-child(4) img {
+            width: 10%;
+            position: absolute;
+            top: 40%;
+            right: 0; }
+  section .content {
+    width: 96%;
+    display: flex;
+    margin: 1rem auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #7c7c7c;
+    background: #f5f5f5; }
+    section .content div {
+      width: 80%;
+      margin: 1rem auto;
+      text-align: center; }
+  section .content_one {
+    width: 96%;
+    margin: 1rem auto;
+    display: flex; }
+    section .content_one div {
+      width: 25%; }
+      section .content_one div img {
+        width: 100%; }
+    section .content_one ul {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      section .content_one ul li {
+        width: 100%;
+        flex-grow: 1;
+        border: 0.3px solid #aaaaaa; }
+        section .content_one ul li div {
+          width: 100%;
+          margin: 1rem auto;
+          text-align: center;
+          font-size: 2rem;
+          color: #7c7c7c; }
+  section .img {
+    width: 96%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around; }
+    section .img img {
+      width: 100%; }
+  section .footer {
+    width: 96%;
+    margin: 1rem auto;
+    display: flex; }
+  section .footer > div {
+    width: 20%;
+    text-align: center;
+    font-size: 2rem; }
+  section .footer > div:nth-child(3) {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end; }
+    section .footer > div:nth-child(3) .top img {
+      display: block;
+      margin: 0.5rem auto; }
+  section .footer_two {
+    width: 100%;
+    background: #eeeeee; }
+    section .footer_two div {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 2rem; }
+      section .footer_two div p {
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+      section .footer_two div p:nth-child(1) {
+        color: #0f0f0f; }
+      section .footer_two div p:nth-child(2) {
+        color: #aaaaaa;
+        font-size: 1.5rem; }
+
+/*# sourceMappingURL=index.css.map */
